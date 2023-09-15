@@ -1,0 +1,21 @@
+{
+  "name": "@acomagu/refine-hygraph",
+  "version": "0.1.0",
+  "type": "module",
+  "types": "index.d.ts",
+  "exports": "./index.js",
+  "dependencies": {
+    "change-case": "^4.1.2",
+    "gql-query-builder": "^3.8.0",
+    "pluralize": "^8.0.0"
+  },
+  "peerDependencies": {
+    "@refinedev/core": "^4.0.0",
+    "graphql-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "@refinedev/core": "^4.38.0",
+    "@types/pluralize": "^0.0.30",
+    "graphql-request": "^6.1.0"
+  }
+}
